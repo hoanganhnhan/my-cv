@@ -1,12 +1,12 @@
-.about {
+.about__body {
     display: flex;
-    height: 100%;
+    height: 85%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .fullname {
-    color: var(--primary-color);
+    // color: var(--text-color-light);
 }
 .about__intro {
     width: 70%;
@@ -19,6 +19,18 @@
     line-height: 2.2rem;
 }
 .info1__title {
-    color: var(--primary-color);
-    font-weight: 400;
+    // color: var(--text-color-light);
 }
+
+.about__img {
+    height: 200px;
+    width: 200px;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border: 2px solid var(--primary-color);
+        border-radius: 50%;
+    }
+}
+//-----------------------

@@ -2,30 +2,22 @@ import styles from './Sidebar.module.scss';
 import classNames from 'classnames/bind';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import pic from '../../assets/images/chandung.jpg';
 
 import { publicRouters } from '../../routes';
 
 const cx = classNames.bind(styles);
 
 function Siderbar() {
-    const [type, setType] = useState('Home');
+    const [type, setType] = useState('About');
     return (
         <div className={cx('navbar')}>
-            <div className={cx('navbar__img')}>
-                <img src={pic} alt="chandung" />
-            </div>
             <ul className={cx('navbar__list')}>
                 {publicRouters.map((route, index) => {
                     return (
                         <li key={index} className={cx('navbar__item')}>
                             <Link
                                 to={route.path}
-                                style={
-                                    type === route.component.name
-                                        ? { backgroundColor: '#10375c', color: '#ced6db' }
-                                        : {}
-                                }
+                                style={type === route.component.name ? { backgroundColor: 'var(--primary-color)' } : {}}
                                 onClick={() => setType(route.component.name)}
                             >
                                 {route.component.name}

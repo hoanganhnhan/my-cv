@@ -1,10 +1,14 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root {
     --black: #000;
-    --primary-color: #10375c;
-    --background-color: #ced6db;
+    --primary-color: #324861;
+    --text-color-light: #ced6db;
+    --background-color-sidebar: #0d0e22;
+    --background-color-content: #ced6db;
+    --background-content: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 * {
     box-sizing: border-box;
@@ -15,7 +19,8 @@ html {
 }
 body {
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     line-height: 1.6rem;
     text-rendering: optimizeSpeed;
@@ -27,5 +32,5 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--text-color-light);
 }

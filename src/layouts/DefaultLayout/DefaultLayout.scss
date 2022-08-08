@@ -3,14 +3,24 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    // margin: auto;
 }
 
 .sidebar {
-    // flex: 1;
-    width: 309px;
-    background-color: var(--background-color);
+    height: 30px;
+
+    width: 100%;
+
+    // z-index: 1;
 }
 .content {
-    flex: 3;
+    // flex: 3;
+    // background-color: var(--background-color-content);
+    width: 100%;
+    background: var(--background-content);
+    color: var(--text-color-light);
+}
+.container {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
 }

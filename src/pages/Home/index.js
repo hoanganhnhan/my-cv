@@ -1,17 +1,24 @@
 import './Home.scss';
+import pic from '../../assets/images/chandung.jpg';
+
 function About() {
     return (
-        <div className="about">
+        <div className="about__body">
+            <div className={'about__img'}>
+                <img src={pic} alt="chandung" />
+            </div>
             <h1 className="about__name">
                 <span>Hi! I'm </span>
                 <span className="fullname">Hoang Anh Nhan</span>
             </h1>
+            <h3 className="about__position">Front-end Developer</h3>
             <p className="about__intro">
                 An enthusiastic and passionate individual with basic technology knowledge seeking an entry-level
                 position focusing in the IT that my skills, abilities and knowledge can be utilized for the company, as
                 well as giving me opportunities to develop professionally.
             </p>
-            <div className="info">
+
+            {/* <div className="info">
                 <ul className="info__list">
                     <li>
                         <span className="info1__title">Age: </span>
@@ -40,7 +47,7 @@ function About() {
                         <span>Ho Chi Minh City, Viet Nam</span>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 }
