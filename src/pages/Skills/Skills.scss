@@ -8,8 +8,56 @@
 }
 .skills__body__header {
     position: absolute;
+    height: 60px;
     top: 10%;
     width: 90%;
     text-align: center;
     border-bottom: 2px solid var(--primary-color);
+}
+.skills__content {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    position: absolute;
+    top: calc(10% + 60px);
+    height: 360px;
+}
+.skills__content__list {
+    width: 400px;
+    height: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 16px;
+    // text-align: center;
+    .skills__content__list__items {
+        padding: 0 32px;
+        line-height: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    h3 {
+        text-align: center;
+    }
+    &:first-child {
+        margin-right: 32px;
+    }
+}
+
+.skills__content__list__items__main {
+    padding: 0;
+    margin: 0 0 24px 0;
+    span {
+        display: block;
+        margin-bottom: 4px;
+    }
+}
+
+.icon__check {
+    height: 24px;
+    width: 24px;
+    line-height: 2.4rem;
+    color: var(--primary-color);
+}
+
+.skills__content__item__list {
+    display: flex;
 }
