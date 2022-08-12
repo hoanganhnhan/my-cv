@@ -39,7 +39,7 @@ function Projects() {
                         </li>
                     </div>
                 </div>
-                <div className="projects__content__item">
+                <div className="projects__content__item projects__content__item__mycv">
                     <h3 className="projects__content__item__title">My CV</h3>
                     <div className="projects__content__item__content">
                         <li>- Personal project</li>

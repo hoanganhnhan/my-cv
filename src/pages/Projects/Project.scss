@@ -21,6 +21,8 @@
     position: absolute;
     top: calc(10% + 60px);
     height: 360px;
+    width: 90%;
+    flex-wrap: wrap;
     .projects__content__item {
         width: 320px;
         height: 100%;
