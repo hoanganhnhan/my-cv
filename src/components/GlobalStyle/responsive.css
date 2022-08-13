@@ -22,23 +22,11 @@
 /* mobile  < 739px*/
 @media (max-width: 46.1875em) {
     .container {
-        /* position: relative;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 100%;
-        overflow: unset; */
+        position: relative;
     }
     /* ----------------navbar-------------- */
     .navbar {
-        /* background-color: #090d13; */
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 320px;
-        max-width: 100%;
+        display: none;
     }
     .navbar__list {
         display: none;
@@ -84,13 +72,14 @@
         align-items: center;
         margin: 0;
         padding: 0;
+        width: 320px;
         min-width: 320px;
         flex-direction: column;
         background-color: #101926;
-        /* 101926 */
-        width: 100%;
-        height: 100%;
         position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
         z-index: 2;
         transform: translateX(100%);
     }
@@ -133,21 +122,52 @@
         width: 90%;
     }
     /* ------------skills page----------------- */
+    .skills__body {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
     .skills__content {
-        flex-direction: column;
+        display: block;
+        height: 480px;
+        /* height: 90%; */
+        overflow: hidden;
+        overflow-y: auto;
+        margin-top: 52px;
+    }
+    .skills__content__list:first-child {
+        margin: 0;
     }
     .skills__content__list:nth-child(2) {
         margin-top: 8px;
     }
+    .skills__content__list {
+        height: 360px;
+    }
     /* ------------project page---------------- */
     .projects__body {
-        /* height: 100%; */
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
     }
     .projects__content {
-        height: unset;
+        display: block;
+        height: 480px;
+        overflow: hidden;
+        overflow-y: scroll;
+        width: unset;
     }
     .projects__content .projects__content__item:nth-child(2) {
         margin: 8px 0;
+    }
+    .projects__content .projects__content__item {
+        height: 360px;
     }
 
     /* ------------contact page---------------- */

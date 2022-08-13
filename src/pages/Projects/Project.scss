@@ -23,6 +23,8 @@
     height: 360px;
     width: 90%;
     flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: auto;
     .projects__content__item {
         width: 320px;
         height: 100%;
