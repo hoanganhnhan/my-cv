@@ -10,6 +10,10 @@ import pic from '../../assets/images/chandung.jpg';
 
 function Siderbar() {
     const [type, setType] = useState('About');
+    function handleClick() {
+        const containerElement = document.getElementsByClassName('container');
+        containerElement.classList.remove('navbar__list__mobile');
+    }
     return (
         <>
             <div className="navbar">
@@ -30,7 +34,6 @@ function Siderbar() {
                                         {route.component.name}
                                     </Link>
                                 </li>
-                                {/* <li key={index} className="navbar__item__mobile"></li> */}
                             </>
                         );
                     })}

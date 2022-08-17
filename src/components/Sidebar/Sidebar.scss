@@ -26,7 +26,6 @@
     min-width: 600px;
     display: flex;
     justify-content: space-between;
-    // flex-wrap: wrap;
 }
 .navbar__item {
     min-width: 100px;
@@ -40,8 +39,6 @@
         align-items: center;
         &:hover {
             opacity: 0.6;
-            // background-color: #212b31;
-            // color: black;
         }
     }
 }

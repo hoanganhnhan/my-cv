@@ -21,7 +21,7 @@ function Projects() {
                                 className="projects__content__item__link"
                                 href="https://github.com/hoanganhnhan/web-film"
                             >
-                                Click here
+                                My Website
                             </a>
                         </li>
                     </div>
@@ -34,7 +34,7 @@ function Projects() {
                         <li>- Technical in use: HTML, CSS, JavaScript</li>
                         <li className="projects__content__item__has__link">
                             <a className="projects__content__item__link" href="https://the-band-web.herokuapp.com/">
-                                Click here
+                                My Website
                             </a>
                         </li>
                     </div>
@@ -46,11 +46,8 @@ function Projects() {
                         <li>- My position: FE Developer</li>
                         <li>- Technical in use: HTML, CSS, JavaScript, ReactJS</li>
                         <li className="projects__content__item__has__link">
-                            <a
-                                className="projects__content__item__link"
-                                href="https://github.com/hoanganhnhan/web-film"
-                            >
-                                Click here
+                            <a className="projects__content__item__link" href="#">
+                                My Website
                             </a>
                         </li>
                     </div>

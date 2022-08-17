@@ -22,9 +22,16 @@ function Contact() {
                 </div>
                 <div className="contact__form">
                     <form action="">
-                        <div class="contact__form__name__email">
+                        <div className="contact__form__name__email">
                             <div className="contact__form__content__name">
-                                <input type="text" name="" placeholder="Name" required="" id="" class="form-control" />
+                                <input
+                                    type="text"
+                                    name=""
+                                    placeholder="Name"
+                                    required=""
+                                    id=""
+                                    className="form-control"
+                                />
                             </div>
                             <div className="contact__form__content__email">
                                 <input
@@ -33,12 +40,19 @@ function Contact() {
                                     placeholder="Email"
                                     required=""
                                     id=""
-                                    class="form-control"
+                                    className="form-control"
                                 />
                             </div>
                         </div>
                         <div className="contact__form__name__message">
-                            <input type="text" name="" placeholder="Message" required="" id="" class="form-control" />
+                            <input
+                                type="text"
+                                name=""
+                                placeholder="Message"
+                                required=""
+                                id=""
+                                className="form-control"
+                            />
                         </div>
                         <div className="contact__form__name__submit">
                             <input type="submit" name="" value="SEND" />

@@ -43,16 +43,10 @@
     margin: 0 16px;
     line-height: 2.4rem;
     position: relative;
-
-    // .projects__content__item__has__link {
-    //     position: absolute;
-    //     // bottom: 0;
-    // }
 }
 
 .projects__content__item__link {
     display: block;
-    text-align: center;
     text-decoration: underline;
-    color: red;
+    color: var(--text-color-light);
 }
